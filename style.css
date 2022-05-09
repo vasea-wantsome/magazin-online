@@ -1,0 +1,37 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  .users {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .users > article {
+    border: 1px solid lightgray;
+  }
+  article img {
+    width: 100%;
+  }
+  article div {
+    padding: 20px;
+  }
+  
+  .errors div {
+    border: 5px solid red;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    color: red;
+  }
+  
+  .buttons {
+    margin: 20px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .buttons button:first-child {
+    margin: 0 20px;
+  }
+  
